@@ -3,6 +3,9 @@ public class Library extends Build {
     private boolean takeBook;
     private boolean excursion;
     public Library(){}
+    public void place(){
+        System.out.println("Крупнейшая библиотека в городе");
+    }
 
 
     public boolean isTakeBook(){return takeBook;}
