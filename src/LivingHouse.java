@@ -1,0 +1,3 @@
+interface LivingHouse {
+    void place();
+}
